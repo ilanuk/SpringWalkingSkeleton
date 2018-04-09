@@ -3,7 +3,7 @@ buildscript {
         springBootVersion = '2.0.1.RELEASE'
     }
     repositories {
-        jcenter()
+        MavenCentral()
     }
     dependencies {
         classpath 'org.flywaydb:flyway-gradle-plugin:3.2.1'
